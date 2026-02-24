@@ -14,7 +14,6 @@ namespace ADG24022026.AppMVC.Controllers
             {
                 return View();
             }
-
             // Recibe los números y realiza la suma
             [HttpPost]
             public IActionResult Index(double num1, double num2)
