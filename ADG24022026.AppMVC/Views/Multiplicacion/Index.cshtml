@@ -1,1 +1,24 @@
 ﻿
+<h1>Multiplicar</h1>
+
+<form asp-action="Index" method="POST">
+    <div>
+        <label for="numero1">Número 1:</label>
+        <input type="number" name="numero1" id="numero1" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="numero2">Número 2:</label>
+        <input type="number" name="numero2" id="numero2" required>
+    </div>
+
+    <br>
+
+    <button type="submit">Multiplicar</button>
+</form>
+
+<span>
+    @ViewBag.Resultado
+</span>
